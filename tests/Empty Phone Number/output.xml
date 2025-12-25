@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.11.9 on win32)" generated="2025-12-25T14:22:49.343221" rpa="false" schemaversion="5">
+<suite id="s1" name="Empty Phone" source="D:\CP\lab4\TestAutomationLab\tests\Empty Phone Number\empty_phone.robot">
+<test id="s1-t1" name="Empty Phone Number" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-12-25T14:22:49.718161" level="INFO">Opening browser 'Chrome' to base url 'file:///D:/CP/lab4/TestAutomationLab/StarterFiles/Registration.html'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-12-25T14:22:49.717154" elapsed="1.479126"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-12-25T14:22:51.198278" elapsed="0.111335"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-12-25T14:22:51.310610" level="INFO">Typing text 'Somyod' into text field 'id=firstname'.</msg>
+<arg>id=firstname</arg>
+<arg>Somyod</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-25T14:22:51.309613" elapsed="0.197871"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-12-25T14:22:51.508750" level="INFO">Typing text 'Sodsai' into text field 'id=lastname'.</msg>
+<arg>id=lastname</arg>
+<arg>Sodsai</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-25T14:22:51.507484" elapsed="0.106049"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-12-25T14:22:51.614532" level="INFO">Typing text 'CS KKU' into text field 'id=organization'.</msg>
+<arg>id=organization</arg>
+<arg>CS KKU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-25T14:22:51.614532" elapsed="0.089274"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-12-25T14:22:51.705855" level="INFO">Typing text 'somyod@kkumail.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>somyod@kkumail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-25T14:22:51.704853" elapsed="0.133347"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-12-25T14:22:51.839282" level="INFO">Clicking button 'id=registerButton'.</msg>
+<arg>id=registerButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-25T14:22:51.838200" elapsed="0.079960"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-12-25T14:22:51.934079" level="INFO">Current page contains text 'Please enter your phone number!!'.</msg>
+<arg>Please enter your phone number!!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-12-25T14:22:51.919260" elapsed="0.014819"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-12-25T14:22:51.935593" elapsed="2.176632"/>
+</kw>
+<status status="PASS" start="2025-12-25T14:22:49.715748" elapsed="4.397741"/>
+</test>
+<status status="PASS" start="2025-12-25T14:22:49.345724" elapsed="4.767765"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Empty Phone" id="s1" pass="1" fail="0" skip="0">Empty Phone</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
